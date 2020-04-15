@@ -1,0 +1,37 @@
+/* Footer Styling */
+
+.ft {
+  background-color: #5D5C61;
+  display: flex;
+  height: 15%;
+  min-width: 100vw;
+  position: sticky;
+  margin-bottom: auto;
+  flex-shrink: 0;
+}
+
+.git {
+  width: 50%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 10px;
+  text-align: right;
+  align-items: flex-end;
+}
+
+.arr {
+  width: 50%;
+  color: white;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 10px;
+  align-items: flex-start;
+}
+
+.git > a {
+  color: white;
+}
+
+a:hover {
+  color: blue;
+}

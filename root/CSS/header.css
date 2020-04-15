@@ -1,0 +1,35 @@
+/*Header Sytling */
+.hd {
+  background-color: #5D5C61;
+  min-width: 100vw;
+  height: 15%;
+  display: flex;
+  position: sticky;
+  margin-bottom: auto;
+  flex-shrink: 0;
+}
+
+.hd_title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 10px;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+  width: 75%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  align-items: flex-start;
+}
+
+.hd_class {
+  width: 25%;
+  text-align: right;
+}
+
+.udacity {
+  padding-top: 28px;
+  padding-bottom: 20px;
+  padding-right: 25px;
+  max-height: 30px;
+  max-width: 30px;
+}
